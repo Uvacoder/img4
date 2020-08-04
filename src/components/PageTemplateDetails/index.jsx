@@ -6,6 +6,8 @@ class PageTemplateDetails extends React.Component {
   render() {
     const page = this.props.data.markdownRemark
 
+    console.log(page)
+
     return (
       <div>
         <Sidebar {...this.props} />

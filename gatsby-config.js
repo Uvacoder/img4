@@ -1,15 +1,15 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://shawnandrews.photos'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Shawn Andrews Photography Blog',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'These are my ramblings on me learning photography.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,19 +20,15 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
+      }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Shawn Andrews',
       telegram: '#',
       twitter: '#',
-      github: '#',
-      rss: '#',
+      email: '#',
+      github: 'https://github.com/sandrews06/photos',
+      rss: '/rss.xml',
       vk: '#',
     },
   },
@@ -108,6 +104,10 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
+              showCaptions: true,
+              linkImagesToOriginal: true,
+              withWebp: true,
+              markdownCaptions: true
             },
           },
           {
@@ -124,7 +124,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-174438924-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
