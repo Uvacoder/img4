@@ -30,3 +30,4 @@ jobs:
         access-token: 0577102195d40309f5088d53d9ec9f3b00b92120
         # The branch expected by GitHub to have the static files needed for your site.
         deploy-branch: docs
+        gatsby-args: --prefix-paths
