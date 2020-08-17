@@ -20,7 +20,11 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-      }
+      },
+      {
+        label: 'Gallery',
+        path: '/gallery/',
+      },
     ],
     author: {
       name: 'Shawn Andrews',
@@ -38,6 +42,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/assets/images`,
+        name: 'images',
       },
     },
     {
@@ -107,7 +118,7 @@ module.exports = {
               showCaptions: true,
               linkImagesToOriginal: true,
               withWebp: true,
-              markdownCaptions: true
+              markdownCaptions: true,
             },
           },
           {
@@ -122,6 +133,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sharp-exif',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: { trackingId: 'UA-174438924-1' },

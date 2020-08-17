@@ -10,6 +10,7 @@ exports.createPages = ({ graphql, actions }) => {
     const postTemplate = path.resolve('./src/templates/post-template.jsx')
     const pageTemplate = path.resolve('./src/templates/page-template.jsx')
     const tagTemplate = path.resolve('./src/templates/tag-template.jsx')
+    const galleryTemplate = path.resolve('./src/templates/gallery-template.jsx')
     const categoryTemplate = path.resolve(
       './src/templates/category-template.jsx'
     )
@@ -82,6 +83,12 @@ exports.createPages = ({ graphql, actions }) => {
               component: categoryTemplate,
               context: { category },
             })
+          })
+        } else if (_.get(edge, 'node.frontmatter.layout') === 'gallery') {
+          createPage({
+            path: edge.node.fields.slug,
+            component: slash(galleryTemplate),
+            context: { slug: edge.node.fields.slug },
           })
         }
       })

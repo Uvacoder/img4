@@ -2,3 +2,13 @@
 
 @import "pages/tags";
 @import "pages/categories";
+
+.ril__caption {
+    max-height: 180px !important;
+    background-color: transparent !important;
+}
+
+.ril__outer {
+    backdrop-filter: blur(10px);
+    background-color: #000 !important;
+}

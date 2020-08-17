@@ -8,7 +8,7 @@ class Layout extends React.Component {
 
     return (
       <div className="layout">
-        <Helmet defaultTitle="Blog by John Doe" />
+        <Helmet defaultTitle="Shawn Andrews Photography Blog" />
         {children}
       </div>
     )

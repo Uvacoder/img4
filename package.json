@@ -24,8 +24,10 @@
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@browniebroke/gatsby-image-gallery": "^3.5.1",
     "bluebird": "^3.5.1",
     "gatsby": "^2.0.22",
+    "gatsby-image": "^2.4.16",
     "gatsby-plugin-catch-links": "^2.0.4",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.3.13",
@@ -34,6 +36,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.6",
+    "gatsby-plugin-sharp-exif": "^1.0.2",
     "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-remark-copy-linked-files": "^2.0.5",
     "gatsby-remark-images": "^3.3.24",
