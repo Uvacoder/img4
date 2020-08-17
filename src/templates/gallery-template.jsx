@@ -1,24 +1,25 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import get from 'lodash/get'
+import Gallery from '@browniebroke/gatsby-image-gallery'
 import { graphql } from 'gatsby'
+import '@browniebroke/gatsby-image-gallery/dist/style.css'
 import Layout from '../components/Layout'
 import Sidebar from '../components/Sidebar'
-import get from 'lodash/get'
-
-import Gallery from '@browniebroke/gatsby-image-gallery'
-import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 function Caption({ exif, cameraModel }) {
   const shutterSpeed = (1 / exif.ExposureTime) > 1 ? `1/${1 / exif.ExposureTime}` : `${exif.ExposureTime} sec`
 
-  return (<div>
-    <div><strong>ISO</strong>: {exif.ISO}</div>
-    <div><strong>Shutter Speed</strong>: {shutterSpeed}</div>
-    <div><strong>Focal Length</strong>: {exif.FocalLength}mm</div>
-    <div><strong>FStop</strong>: {exif.FNumber}</div>
-    <div><strong>Lens</strong>: {exif.LensModel}</div>
-    <div><strong>Camers</strong>: {cameraModel}</div>
-          </div>)
+  return (
+    <div>
+      <div><strong>ISO</strong>: {exif.ISO}</div>
+      <div><strong>Shutter Speed</strong>: {shutterSpeed}</div>
+      <div><strong>Focal Length</strong>: {exif.FocalLength}mm</div>
+      <div><strong>FStop</strong>: {exif.FNumber}</div>
+      <div><strong>Lens</strong>: {exif.LensModel}</div>
+      <div><strong>Camers</strong>: {cameraModel}</div>
+    </div>
+  )
 }
 
 class GalleryTemplate extends React.Component {
@@ -30,9 +31,6 @@ class GalleryTemplate extends React.Component {
       const { thumb, full, fields } = node.childImageSharp
       const exif = get(fields, 'exif.raw.exif')
       const cameraModel = get(fields, 'exif.raw.image.Model')
-      const shutterSpeed = (1 / exif.ExposureTime) > 1 ? `1/${1 / exif.ExposureTime}` : `${exif.ExposureTime} sec`
-      const caption = `ISO: ${exif.ISO}, Shutter Speed: ${shutterSpeed}, Focal Length: ${exif.FocalLength} mm, FStop: ${exif.FNumber}, Lens: ${exif.LensModel}, Camera: ${cameraModel}`
-      console.log(exif)
       return {
         thumb,
         full,
@@ -44,7 +42,7 @@ class GalleryTemplate extends React.Component {
     return (
       <Layout>
         <div>
-          {/* <Helmet title={`Gallery - ${title}`} /> */}
+          <Helmet title={`Gallery - ${title}`} />
           <Sidebar {...this.props} />
           <div>
             <h1>Gallery</h1>
