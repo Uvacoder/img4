@@ -31,7 +31,7 @@ This one is a tip I've seen that mostly macro photographers do.  They set everyt
 
 ## Shutter Speed Minimum
 
-I've been doing a lot of my shots lately on aperture priority.  Like I said, I love that sweet sweet blurriness. mmmmm.  Based on lighting conditions this can drop my shutter speed down, as I'm usually locking in my ISO pretty low.  I learnt as a rule of thumb you should try to keep it above 1/60 if you're shooting hand held.  For telephoto lenses it's a little different as they're more susceptible to movement.  The rule I heard was, take your crop factor and multiply it by the focal length.  For example, I have an apc censor, which has a crop factor of 1.6.  So if I was shooting with a 100mm lens, I should keep my shutter speed faster than 1/160. Fancy!  I love these kind of rules.  Makes my life that much easier.
+I've been doing a lot of my shots lately on aperture priority.  Like I said, I love that sweet sweet blurriness. mmmmm.  Based on lighting conditions this can drop my shutter speed down, as I'm usually locking in my ISO pretty low.  I learnt as a rule of thumb you should try to keep it above 1/60 if you're shooting hand held.  For telephoto lenses it's a little different as they're more susceptible to movement.  The rule I heard was, take your crop factor and multiply it by the focal length.  For example, I have an aps-c censor, which has a crop factor of 1.6.  So if I was shooting with a 100mm lens, I should keep my shutter speed faster than 1/160. Fancy!  I love these kind of rules.  Makes my life that much easier.
 
 
 
