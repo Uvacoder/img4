@@ -31,13 +31,17 @@ class GalleryTemplate extends React.Component {
       const { thumb, full, fields } = node.childImageSharp
       const exif = get(fields, 'exif.raw.exif')
       const cameraModel = get(fields, 'exif.raw.image.Model')
+      const date = new Date(get(fields, 'exif.raw.image.ModifyDate'))
+
       return {
+        date,
         thumb,
         full,
         caption: <Caption exif={exif} cameraModel={cameraModel} />,
       }
     })
 
+    const sortImages = images.sort((a, b) => b.date - a.date)
 
     return (
       <Layout>
@@ -46,7 +50,7 @@ class GalleryTemplate extends React.Component {
           <Sidebar {...this.props} />
           <div>
             <h1>Gallery</h1>
-            <Gallery images={images} />
+            <Gallery images={sortImages} />
           </div>
         </div>
       </Layout>
@@ -100,9 +104,11 @@ export const pageQuery = graphql`
                             FocalLength
                             FNumber
                             LensModel
+                            DateTimeOriginal
                         }
                         image {
                             Model
+                            ModifyDate
                         }
                     }
                 }

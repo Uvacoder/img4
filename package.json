@@ -11,7 +11,8 @@
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b docs"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b docs",
+    "post": "plop post"
   },
   "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
@@ -62,9 +63,12 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
+    "filenamify": "^4.1.0",
     "gh-pages": "^1.2.0",
     "lost": "^8.2.0",
+    "plop": "^2.7.4",
     "postcss-pxtorem": "^4.0.1",
-    "prettier": "^1.10.2"
+    "prettier": "^1.10.2",
+    "slugify": "^1.4.5"
   }
 }
