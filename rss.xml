@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shawn Andrews Photography Blog]]></title><description><![CDATA[These are my ramblings on me learning photography.]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 20 Oct 2020 15:24:47 GMT</lastBuildDate><item><title><![CDATA[Backing Up Photos]]></title><description><![CDATA[The workflow I have finally settled on.]]></description><link>https://shawnandrews.photos/posts/Backing-Up-Photos/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/Backing-Up-Photos/</guid><pubDate>Tue, 20 Oct 2020 13:46:34 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a22eb3248596461acdf152949a85fd41/08c1c/moss.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.16666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgT/2gAMAwEAAhADEAAAAct8KzrCCn//xAAYEAADAQEAAAAAAAAAAAAAAAABAhEAIf/aAAgBAQABBQJUOKiXBszdsP8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAESIf/aAAgBAgEBPwHZVf/EABgQAAIDAAAAAAAAAAAAAAAAAAACESAh/9oACAEBAAY/AiWMp//EABoQAQEAAwEBAAAAAAAAAAAAAAEAETFhIVH/2gAIAQEAAT8hzfs8bOXLyXGpGLQv/9oADAMBAAIAAwAAABDLP//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAEDAQE/EIf/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/ELkbf//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExUZGB/9oACAEBAAE/EKUaxZcNAPJ8lRRUMIABvMoy8J9m4He5/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/a22eb3248596461acdf152949a85fd41/8ac56/moss.webp 240w,
+/static/a22eb3248596461acdf152949a85fd41/d3be9/moss.webp 480w,
+/static/a22eb3248596461acdf152949a85fd41/e46b2/moss.webp 960w,
+/static/a22eb3248596461acdf152949a85fd41/f992d/moss.webp 1440w,
+/static/a22eb3248596461acdf152949a85fd41/882b9/moss.webp 1920w,
+/static/a22eb3248596461acdf152949a85fd41/c1d3c/moss.webp 5090w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/a22eb3248596461acdf152949a85fd41/09b79/moss.jpg 240w,
+/static/a22eb3248596461acdf152949a85fd41/7cc5e/moss.jpg 480w,
+/static/a22eb3248596461acdf152949a85fd41/6a068/moss.jpg 960w,
+/static/a22eb3248596461acdf152949a85fd41/644c5/moss.jpg 1440w,
+/static/a22eb3248596461acdf152949a85fd41/0f98f/moss.jpg 1920w,
+/static/a22eb3248596461acdf152949a85fd41/08c1c/moss.jpg 5090w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/a22eb3248596461acdf152949a85fd41/6a068/moss.jpg&quot;
+          alt=&quot;moss&quot;
+          title=&quot;moss&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As I’m starting to take more photos, I’m starting to realize my workflow is painful.   Photos are all over the place, and aren’t consistently placed anywhere.  I could have imported my work from 3 different computers/tablets.  Just a mess.  I finally figured out a workflow that works for me, and I thought I’d share.&lt;/p&gt;
+&lt;h2&gt;Importing&lt;/h2&gt;
+&lt;p&gt;I need to be consistent here. In the past, I’ve uploaded them to either my work computer (laptop), my mac mini, or used wifi to get it onto the Ipad. One thing that I found I enjoyed is using Lightroom on my Ipad.  I can sit and watch TV and edit photos.  But for photoshop and that sort of thing, I’d want it on my laptop.  I’ve settled on importing it directly onto my Ipad through wifi.  I could probably get a card reader for my Ipad, but I haven’t done that yet, so I’m stuck with slow imports if I want to use my Ipad.  I’m okay with it…It’s a lifestyle decision.  If I’m feeling saucy and decide to import directly to my laptop, that works as well.  It is ultimately where I want the files to end up.&lt;/p&gt;
+&lt;h2&gt;Transfering to the Laptop&lt;/h2&gt;
+&lt;p&gt;After I’ve modified things in Lightroom on the Ipad if I need to do retouching it needs to be on my laptop.  I tried photoshop on my Ipad…I just couldn’t deal with it.  I’m currently on the budget Adobe plan which gives me 20GB of cloud storage.  Which is more than enough for me to transfer a single shoot to my computer.  But nowhere enough for me to keep all my photos in the cloud.  They offer a 2TB solution, but for the price, it’s not worth it to me.  If it was unlimited space.  Absolutely.  Because of the limit of space, I’m going to use the Lightroom downloader.  Which essentially downloads the files from your Lightroom cloud files onto your computer.  Then I’ll use Lightroom classic / photoshop if I want to do any further edits.  Ultimately I will remove it from the Lightroom cloud after it is on the laptop.  I should mention, Lightroom classic won’t be synced to the cloud.  It only works on files on my computer.&lt;/p&gt;
+&lt;h2&gt;Backing Things Up.&lt;/h2&gt;
+&lt;p&gt;I wanted to keep my files on an external hard drive, as well as in the cloud.  Also, I wanted access to my photos on my phone / Ipad at any given point.  Which is a problem.  Ultimately my retouched files will be on my laptop.  So I needed a cloud backup that allows me to access everything on any device.  I also needed something that has unlimited space, and is somewhat cheap.  I landed on Backblaze.  All the other cloud services I saw had a limit of 2TB.  Which I’m sure it would take me a very long time to get to.  But with Backblaze, I don’t have to worry about that, and it’s only $6/month.  I got an 8TB drive, and drop all my raw / processed files on there, and Backblaze backs it up for me.  They have an app that I have access to all my files that were backed up.&lt;/p&gt;
+&lt;p&gt;And that’s it.  I want to do some automation around uploading to my blog here.  But besides that I’m happy with how things are working so far.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I Love Tripods. Sort of.]]></title><description><![CDATA[My opinions on tripods after just purchasing one.]]></description><link>https://shawnandrews.photos/posts/i-love-tripods-sort-of/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/i-love-tripods-sort-of/</guid><pubDate>Sat, 19 Sep 2020 18:21:56 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/74febb2e8b56e12116185cc41b718ecb/c9f7f/river-long-exposure.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAYGv0BwSwT//xAAYEAADAQEAAAAAAAAAAAAAAAABAhEDAP/aAAgBAQABBQKKvBaGzhxYnjNDq8f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERMRBRkaH/2gAIAQEABj8CvqKxL8Fsg//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExQWGBkf/aAAgBAQABPyEU0k9sMrYubL0a+yiSg6gs6Ezsl6jjzP/aAAwDAQACAAMAAAAQoM//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QbhT/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QDY//xAAdEAEBAAIBBQAAAAAAAAAAAAABEQAhsTFBYaHB/9oACAEBAAE/EBaZEEFTo44KsIg+TNGidpOconoDIQyRI5p6PuMx0TVcmf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/74febb2e8b56e12116185cc41b718ecb/8ac56/river-long-exposure.webp 240w,
+/static/74febb2e8b56e12116185cc41b718ecb/d3be9/river-long-exposure.webp 480w,
+/static/74febb2e8b56e12116185cc41b718ecb/e46b2/river-long-exposure.webp 960w,
+/static/74febb2e8b56e12116185cc41b718ecb/f992d/river-long-exposure.webp 1440w,
+/static/74febb2e8b56e12116185cc41b718ecb/f9c61/river-long-exposure.webp 1703w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/74febb2e8b56e12116185cc41b718ecb/09b79/river-long-exposure.jpg 240w,
+/static/74febb2e8b56e12116185cc41b718ecb/7cc5e/river-long-exposure.jpg 480w,
+/static/74febb2e8b56e12116185cc41b718ecb/6a068/river-long-exposure.jpg 960w,
+/static/74febb2e8b56e12116185cc41b718ecb/644c5/river-long-exposure.jpg 1440w,
+/static/74febb2e8b56e12116185cc41b718ecb/c9f7f/river-long-exposure.jpg 1703w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/74febb2e8b56e12116185cc41b718ecb/6a068/river-long-exposure.jpg&quot;
+          alt=&quot;river long exposure&quot;
+          title=&quot;river long exposure&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I’m happy to say I bought a tripod finally.  My struggle with shaky hands is at an end.  Shopping for one was tricky.  There are just so many options.  I ended up getting a Manfrotto as a compromise of quality and cost.  There are some seriously nifty tripods out there with all the doodads and whatchamacallits. Having never used one before, I couldn’t tell which features really matter and which don’t.  After using my tripod a bit now, I have a little more insight.&lt;/p&gt;
+&lt;h2&gt;Overall Experience&lt;/h2&gt;
+&lt;p&gt;While shooting, and setting up a shot.  I love the tripod.  You just set it up the way you want it, and forget it.  You know you’re going to get a sharp shot.  Also not having to worry about your shutter speed is fantastic!  Getting some cool and creative shots that longer exposures offers is definitely a plus.  What sucks is the effort it takes to set it up. Even with only 3 legs, the amount of time it takes to get it out of your bag, and get the legs extended is a pain.  I found myself opting to shoot free hand because I didn’t want the hassle.  But, if there was a shot that I was really committed to.  It was worth the effort.  I suspect the more I practice with the tripod the easier it’ll get.&lt;/p&gt;
+&lt;h2&gt;Ball Heads Matter&lt;/h2&gt;
+&lt;p&gt;So ball heads…love ‘em and hate mine.  The actual mechanism of moving your camera around is fantastic.  All that freedom a man could get use too.  What sucks is the way I have to attach my camera.  Mine has what is supposed to be a quick release.  It has a button you press with your finger, then slide a leaver you slide with your thumb while the button is pressed.  This sucks for a couple of reasons.  The lever itself is stiff.  I find myself trying to use 2 hands to try and trigger the mechanism.  You could imagine this would be difficult with a camera in your hands.  I can appreciate this did this so that your camera doesn’t slip off the tripod.  The other thing I struggled with was switching hands.  Sometimes I had to use my right, others my left.  And with this mechanism I find it favours my right hand over my left.  In hind sight, if I were to go shopping again, I would make sure the attachment mechanism was something people loved.&lt;/p&gt;
+&lt;h2&gt;Weight&lt;/h2&gt;
+&lt;p&gt;This one is always a feature that is brought to the forefront in the advertisements of the tripods.  Personally, I didn’t mind the weight in my backpack. I think cameras and lenses will be far heavier than the tripod. An extra pound or two is not a big deal in my eyes.  I fluctuate that much weight in a day.  I get hiking you want as little weight as possible.  I guess because I’m a big guy I really didn’t notice anything.   After all said and done, if I were to shop again, I wouldn’t consider the weight.  Heavier ones could probably be cheaper.&lt;/p&gt;
+&lt;h2&gt;Build Quality&lt;/h2&gt;
+&lt;p&gt;I think this one is important.  I can see pulling out your tripod, over and over again can lead to some serious wear and tear.  Especially if you’re shooting in cold climates.  Avoid plastic parts.  I’m happy to say my tripod seams pretty solid.  I was pleasantly surprised when I first got it.  Nothing rattles, everything is smooth.  It is a pleasure to use…except the ball head.  Damn ball head.&lt;/p&gt;
+&lt;h2&gt;Tripod it up&lt;/h2&gt;
+&lt;p&gt;So that’s my two cents for what its worth. I can appreciate the engineering that goes into making these things.  I’ll definitely be making use of my new tripod.  I’m excited to try some more longer exposure stuff.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Focusing Tips I Have Learnt]]></title><description><![CDATA[A couple of tips that will help keep your photos sharp.]]></description><link>https://shawnandrews.photos/posts/focusing-tips/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/focusing-tips/</guid><pubDate>Sat, 29 Aug 2020 11:03:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/ef7a3/sharp-focus.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.50000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABcBAAMBAAAAAAAAAAAAAAAAAAIDBAX/2gAMAwEAAhADEAAAAeKkjKdAcz//xAAZEAACAwEAAAAAAAAAAAAAAAACEAABETH/2gAIAQEAAQUCnRVFq//EABoRAAEFAQAAAAAAAAAAAAAAAAABAgMSISL/2gAIAQMBAT8BmdwtjD//xAAWEQADAAAAAAAAAAAAAAAAAAAQEVH/2gAIAQIBAT8BdH//xAAXEAEAAwAAAAAAAAAAAAAAAAAQATFh/9oACAEBAAY/ArZx/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFRcf/aAAgBAQABPyHN21eQfSWGyOz0ZjC6DyGp/9oADAMBAAIAAwAAABDr7//EABcRAQEBAQAAAAAAAAAAAAAAAAEAMRH/2gAIAQMBAT8QA1Dl2f/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEUH/2gAIAQIBAT8Q0DxG3//EABwQAQEAAgIDAAAAAAAAAAAAAAERACExQVFx4f/aAAgBAQABPxCzEtlW/cOaKdim0x7C+8adgB2b5x+lcaTjGtOf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/8ac56/sharp-focus.webp 240w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/d3be9/sharp-focus.webp 480w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/e46b2/sharp-focus.webp 960w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/f992d/sharp-focus.webp 1440w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/882b9/sharp-focus.webp 1920w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/5de56/sharp-focus.webp 5091w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/09b79/sharp-focus.jpg 240w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/7cc5e/sharp-focus.jpg 480w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/6a068/sharp-focus.jpg 960w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/644c5/sharp-focus.jpg 1440w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/0f98f/sharp-focus.jpg 1920w,
+/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/ef7a3/sharp-focus.jpg 5091w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/17e9a5ebdeeb3bd8d12e9f5ce169cd6a/6a068/sharp-focus.jpg&quot;
+          alt=&quot;sharp focus&quot;
+          title=&quot;sharp focus&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Focusing has been a struggle for me since ever since I’ve started.  Partially it’s because I’m drawn to blurry backgrounds and more macro type shots.  Which means I’ve been working with my lens fully zoomed in, with a very shallow depth of field.  A recipe for focusing disaster.  Even still, I wanted to share some of the things that I’ve learnt online as they’ve been super helpful.&lt;/p&gt;
+&lt;h2&gt;Zoom in?  You Can Do THAT!?&lt;/h2&gt;
+&lt;p&gt;One thing that I’ve been strugling with is being able to preview the shot that I just took and be able to tell if it’s actually sharp.  With the sun reflecting off of the display it’s just hard to tell.  This probably doesn’t come as a surprise to any photographer that actually read their camera’s manual, but you can zoom in on your subject in preview mode!  This was a game changer for me as I could figure out if I needed to try again or not.&lt;/p&gt;
+&lt;h2&gt;Move Yourself, Not the Focus Ring&lt;/h2&gt;
+&lt;p&gt;This one is a tip I’ve seen that mostly macro photographers do.  They set everything up, then they just move the camera back and forth until they get the sweet spot.  With the wind blowing flowers around and such, it makes life easier.  This probably doesn’t make sense to do if you have a tripod setup or if you’re doing a different type of photography.  For the type of stuff I’ve been doing, it definitely makes sense.&lt;/p&gt;
+&lt;h2&gt;Shutter Speed Minimum&lt;/h2&gt;
+&lt;p&gt;I’ve been doing a lot of my shots lately on aperture priority.  Like I said, I love that sweet sweet blurriness. mmmmm.  Based on lighting conditions this can drop my shutter speed down, as I’m usually locking in my ISO pretty low.  I learnt as a rule of thumb you should try to keep it above 1/60 if you’re shooting hand held.  For telephoto lenses it’s a little different as they’re more susceptible to movement.  The rule I heard was, take your crop factor and multiply it by the focal length.  For example, I have an aps-c censor, which has a crop factor of 1.6.  So if I was shooting with a 100mm lens, I should keep my shutter speed faster than 1/160. Fancy!  I love these kind of rules.  Makes my life that much easier.&lt;/p&gt;
+&lt;h2&gt;Stack Them Focuses&lt;/h2&gt;
+&lt;p&gt;This one is kind of interesting.  Focus stacking is taking several shots with different focus points, and merging them together in post process.  A handy tip for landscape photographers.  For example, if you take a picture with the foreground in focus, take another with the mid-ground in focus, then one with the background.  Stitch them together in photoshop, and you’ve got yourself a sharp focus from top to bottom.  This definitely needs to be done on a tripod.   This can also be done for macro photography where you’d focus on something up close, then something a little further away.  This will give you the ability to widen your depth of field in post processing.  This one is a little harder, but there are apps out there that will help stitch things together.  I forget what apps they are, but I’m sure google can help with that if you’re interested.&lt;/p&gt;
+&lt;h2&gt;Keep It Crispy&lt;/h2&gt;
+&lt;p&gt;So that’s my tips.  I’ve noticed a difference in my shots since I’ve started using some of these.  Less mess ups.  Hope it helps a little.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Depth of Field and Focal Length]]></title><description><![CDATA[How depth of field is affected by the camera's focal length]]></description><link>https://shawnandrews.photos/posts/dof-focal-length/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/dof-focal-length/</guid><pubDate>Tue, 18 Aug 2020 12:13:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7276b00197a4e7758437a87dc64bfad9/c08c5/dof.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB5F2EsBP/xAAZEAADAAMAAAAAAAAAAAAAAAABAgMAESD/2gAIAQEAAQUCkqHKCeuP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAQUAAAAAAAAAAAAAAAAAAQACESAi/9oACAEBAAY/ApeVkV//xAAaEAACAgMAAAAAAAAAAAAAAAABERAxAEGB/9oACAEBAAE/IQJRWneIh3Bcsio//9oADAMBAAIAAwAAABCDz//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAwEBPxAQJM//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAMRAhYXHR/9oACAEBAAE/EFyFVinqiHCCTZV3rcOiQ3zBBdEO1j//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/7276b00197a4e7758437a87dc64bfad9/8ac56/dof.webp 240w,
+/static/7276b00197a4e7758437a87dc64bfad9/d3be9/dof.webp 480w,
+/static/7276b00197a4e7758437a87dc64bfad9/0ba47/dof.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/7276b00197a4e7758437a87dc64bfad9/09b79/dof.jpg 240w,
+/static/7276b00197a4e7758437a87dc64bfad9/7cc5e/dof.jpg 480w,
+/static/7276b00197a4e7758437a87dc64bfad9/c08c5/dof.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/7276b00197a4e7758437a87dc64bfad9/c08c5/dof.jpg&quot;
+          alt=&quot;dof&quot;
+          title=&quot;dof&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As I’m learning about the camera’s workings and how to get proper exposure, one thing came up that surprised me.  All the articles I’ve read, and videos I’ve watched about aperture settings left this out.  They simply said, aperture settings determines how narrow the focal plain is.  In turn, how blurry the out of focus part of your image will be. I believe the term is called &lt;strong&gt;Bokeh&lt;/strong&gt;.  For example if you use a large f-stop number (f22), everything in your image should be tack sharp.  If you use a lower f-stop number (say f5.6), only the part you focused on will be sharp. At least that is what I was told.   As I was shooting I was noticing whenever I had my lens at a shorter focal length, the blur looked different from what it looked like when I had a longer focal length.   Sooo…I did an experiment to see what the hell was going on.&lt;/p&gt;
+&lt;h3&gt;The Experiment&lt;/h3&gt;
+&lt;p&gt;Pretty simple. Line up some things on the floor that has consistent spacing.  Something like a ruler.  I used my kid’s toy magnetic building blocks.  And have something to focus on.  I used Mrs. Happy (keeping with the adult theme here).  Then I used an f-stop that would give me some nice blur. (f5.6 - this is the lowest my kit lens could do). I then took several shots at several focal lengths.  Making sure my “ruler” stayed consistently at the bottom of my frame.   That’s it.&lt;/p&gt;
+&lt;h3&gt;The Results&lt;/h3&gt;
+&lt;h4&gt;18mm @ f5.6&lt;/h4&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2af457ed6b3fc3dd6ac676b8927e4ba4/c08c5/18mm.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAdlaaeGeCYp//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEREhNC/9oACAEBAAEFArI1WklmzqzP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwHEVIf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAADAAMAAAAAAAAAAAAAAAAAEDEScaH/2gAIAQEABj8Cpj0q0v/EABwQAAICAgMAAAAAAAAAAAAAAAABESExUUFhcf/aAAgBAQABPyFaBUi7XgaaHNbMSuR3H//aAAwDAQACAAMAAAAQwN//xAAWEQADAAAAAAAAAAAAAAAAAAABECH/2gAIAQMBAT8QNBP/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QdRT/xAAdEAEAAwACAwEAAAAAAAAAAAABABEhMbFBUXGh/9oACAEBAAE/EAGmfYgBdAHb1Et/tLGM8A51LxNABvnI28p//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/2af457ed6b3fc3dd6ac676b8927e4ba4/8ac56/18mm.webp 240w,
+/static/2af457ed6b3fc3dd6ac676b8927e4ba4/d3be9/18mm.webp 480w,
+/static/2af457ed6b3fc3dd6ac676b8927e4ba4/0ba47/18mm.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/2af457ed6b3fc3dd6ac676b8927e4ba4/09b79/18mm.jpg 240w,
+/static/2af457ed6b3fc3dd6ac676b8927e4ba4/7cc5e/18mm.jpg 480w,
+/static/2af457ed6b3fc3dd6ac676b8927e4ba4/c08c5/18mm.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/2af457ed6b3fc3dd6ac676b8927e4ba4/c08c5/18mm.jpg&quot;
+          alt=&quot;18mm&quot;
+          title=&quot;18mm&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;18mm&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h4&gt;24mm @ f5.6&lt;/h4&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7d89c0995b913500ecfb98676b14354d/c08c5/24mm.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAdtCiWGeiop//8QAGhAAAwADAQAAAAAAAAAAAAAAAAERAgMSE//aAAgBAQABBQKoz285U9Gy19M//8QAFxEAAwEAAAAAAAAAAAAAAAAAEBESIf/aAAgBAwEBPwGFo//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAABEBExYf/aAAgBAQAGPwLRKm7Nhcj/xAAdEAACAQQDAAAAAAAAAAAAAAAAAREhMUFRYXGB/9oACAEBAAE/IVqHb4IhoZbfhKuahNzmP//aAAwDAQACAAMAAAAQ0A//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQMBAT8QwpH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8Q2q//xAAfEAEAAQIHAQAAAAAAAAAAAAABABEhMUFhcaGxweH/2gAIAQEAAT8QAe0MAuC6O0r35IpKAyFbqIKuAPwTVT//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/7d89c0995b913500ecfb98676b14354d/8ac56/24mm.webp 240w,
+/static/7d89c0995b913500ecfb98676b14354d/d3be9/24mm.webp 480w,
+/static/7d89c0995b913500ecfb98676b14354d/0ba47/24mm.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/7d89c0995b913500ecfb98676b14354d/09b79/24mm.jpg 240w,
+/static/7d89c0995b913500ecfb98676b14354d/7cc5e/24mm.jpg 480w,
+/static/7d89c0995b913500ecfb98676b14354d/c08c5/24mm.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/7d89c0995b913500ecfb98676b14354d/c08c5/24mm.jpg&quot;
+          alt=&quot;24mm&quot;
+          title=&quot;24mm&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;24mm&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h4&gt;35mm @ f5.6&lt;/h4&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2a0fa193fa81b3e516e5b5ad8ec8f415/c08c5/35mm.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAC/9oADAMBAAIQAxAAAAHblmMPcTkX/8QAGhABAAIDAQAAAAAAAAAAAAAAAQACAxESIf/aAAgBAQABBQLZMuVpYfO1lrK9M//EABcRAAMBAAAAAAAAAAAAAAAAABAREiH/2gAIAQMBAT8BhaP/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwFn/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAAREjFx/9oACAEBAAY/ArTROD//xAAdEAEAAgEFAQAAAAAAAAAAAAABABExIUFRYZGh/9oACAEBAAE/ITgewSU39gocdLL1rB+tbIUZn//aAAwDAQACAAMAAAAQsD//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAEDAQE/EE1KYf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/ECv/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhUTFhof/aAAgBAQABPxCHALp0H0fCYmEaVBTN8fhqH5kgdRGpe+YEWnuf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/2a0fa193fa81b3e516e5b5ad8ec8f415/8ac56/35mm.webp 240w,
+/static/2a0fa193fa81b3e516e5b5ad8ec8f415/d3be9/35mm.webp 480w,
+/static/2a0fa193fa81b3e516e5b5ad8ec8f415/0ba47/35mm.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/2a0fa193fa81b3e516e5b5ad8ec8f415/09b79/35mm.jpg 240w,
+/static/2a0fa193fa81b3e516e5b5ad8ec8f415/7cc5e/35mm.jpg 480w,
+/static/2a0fa193fa81b3e516e5b5ad8ec8f415/c08c5/35mm.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/2a0fa193fa81b3e516e5b5ad8ec8f415/c08c5/35mm.jpg&quot;
+          alt=&quot;35mm&quot;
+          title=&quot;35mm&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;35mm&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h4&gt;55mm @ f5.6&lt;/h4&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/74dd20249a6a2682213dbcc528d5ee34/c08c5/55mm.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABYBAQEBAAAAAAAAAAAAAAAAAAMAAv/aAAwDAQACEAMQAAABfSnYb1BMs//EABoQAQADAAMAAAAAAAAAAAAAAAIAAQMREhP/2gAIAQEAAQUC5qb6IQaOz63Hpbga6//EABgRAAIDAAAAAAAAAAAAAAAAAAECEBEh/9oACAEDAQE/AQlbH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAEDBQAAAAAAAAAAAAAAAAAQITEBAhFBUf/aAAgBAQAGPwKaEN0exMaT/8QAGxABAAEFAQAAAAAAAAAAAAAAAQARITFRcZH/2gAIAQEAAT8hgMW5oAb3aQdqwJw0ihjyf//aAAwDAQACAAMAAAAQey//xAAYEQACAwAAAAAAAAAAAAAAAAAAASExYf/aAAgBAwEBPxDSGpo//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EG6U/8QAGxAAAgMBAQEAAAAAAAAAAAAAASEAETFhQXH/2gAIAQEAAT8QEQfCnpb7WQBq/KfJpUnGhCwIusgJaRVR/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/74dd20249a6a2682213dbcc528d5ee34/8ac56/55mm.webp 240w,
+/static/74dd20249a6a2682213dbcc528d5ee34/d3be9/55mm.webp 480w,
+/static/74dd20249a6a2682213dbcc528d5ee34/0ba47/55mm.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/74dd20249a6a2682213dbcc528d5ee34/09b79/55mm.jpg 240w,
+/static/74dd20249a6a2682213dbcc528d5ee34/7cc5e/55mm.jpg 480w,
+/static/74dd20249a6a2682213dbcc528d5ee34/c08c5/55mm.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/74dd20249a6a2682213dbcc528d5ee34/c08c5/55mm.jpg&quot;
+          alt=&quot;55mm&quot;
+          title=&quot;55mm&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;55mm&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;I thought it was pretty cool to see how the focal length really flatten things out.  And also the distortion that takes place at different lengths. Kind of interesting.  Anyway, looking at the difference of the blur between18mm and 55mm, you can see a drastic difference.  The first square is completely blurred out at 55mm, along with the background.  At 18mm, the first square is a little blurred, and the background is almost sharp.  The focal length really lengthens the focal plain.  In the 55mm test, the focal plain starts just before Mrs. Happy, and almost directly after her.  With the 18mm, the plain is almost the entire length of the squares.  Crazy.  Who knew.  I guess a lot of you probably already did.  From a beginner’s perspective this is a new tool to be exploited.&lt;/p&gt;
+&lt;h3&gt;The Take Away&lt;/h3&gt;
+&lt;p&gt;Now that I realize what is going on, I’m going to try a use this more and more.   I’ve been taking a lot of shots of close up flowers in our garden to practice.  One thing I struggle with is getting all of the flowers in focus some times.  I usually zoom all the way in, which makes the focal plain incredibly narrow.  So if I’m shooting anything that has any kind of depth, only part of the subject is in focus.  Now knowing the results from this test, I can just zoom out a bit if I need the extra light from using a large aperture.  Kinda cool.  Isn’t photography neat. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why do I Suck at Focusing My Camera?]]></title><description><![CDATA[A look at focusing your camera, and some lessons you might learn]]></description><link>https://shawnandrews.photos/posts/why-do-i-suck-at-focusing/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/why-do-i-suck-at-focusing/</guid><pubDate>Wed, 12 Aug 2020 17:11:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7cc468586b3512c3ca0bfccf8413630e/c08c5/blurry.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAUOztCgTxf/EABkQAQEBAAMAAAAAAAAAAAAAAAECABESIf/aAAgBAQABBQKXEc46hL4W5nf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgEFAAAAAAAAAAAAAAAAABFRECExYXH/2gAIAQEABj8C7JOjCHS5/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARIUFhcZH/2gAIAQEAAT8hIoDsxSDAuwgB9IpyexII1BW9LP/aAAwDAQACAAMAAAAQjD//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxAj/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABsQAQADAQEBAQAAAAAAAAAAAAEAETEhQWGB/9oACAEBAAE/EGl23FY/kEHwh0Pj5EyUKolEsih0XexDqXoBWXBzIBvNn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/7cc468586b3512c3ca0bfccf8413630e/8ac56/blurry.webp 240w,
+/static/7cc468586b3512c3ca0bfccf8413630e/d3be9/blurry.webp 480w,
+/static/7cc468586b3512c3ca0bfccf8413630e/0ba47/blurry.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/7cc468586b3512c3ca0bfccf8413630e/09b79/blurry.jpg 240w,
+/static/7cc468586b3512c3ca0bfccf8413630e/7cc5e/blurry.jpg 480w,
+/static/7cc468586b3512c3ca0bfccf8413630e/c08c5/blurry.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/7cc468586b3512c3ca0bfccf8413630e/c08c5/blurry.jpg&quot;
+          alt=&quot;blurry&quot;
+          title=&quot;blurry&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So it turns out keeping photos nice and crispy is harder than I thought.  Just starting out, I decided to take some photos in our garden.  I figured I would put everything in manual mode so I can learn more.  Turns out, what I thought would be the easiest part, turns out I suck at.  Go figure.  Using the focusing dial, I just can’t seem to find when things are tack sharp through the viewfinder.  I move it back and forth to find the sweet spot.  And I swear to myself it’s sharp when I take the photo.  I suspect I just have a stupid shaky hand that is throw things off.  I’m going to share the lessons I learned from this experience.&lt;/p&gt;
+&lt;h3&gt;Lesson #1: Pay Attention to Shutter Speed&lt;/h3&gt;
+&lt;p&gt;If you have a heavy trigger finger like me, or are in a strange position where you need to balance to take a shot.  Good chance you’re going to shake the camera like an unbalanced washing machine.  So pay attention your shutter speed, and squash that motion blur.  There was no excuse for the blur I had in my shots.  I had plenty of light, shooting at the lowest ISO.  There was plenty of opportunity for me to speed up the shutter speed.  Lesson learned.&lt;/p&gt;
+&lt;h3&gt;Lesson #2: Actual Try and Stay Still&lt;/h3&gt;
+&lt;p&gt;This wasn’t even in my thought process.  I just click the button, I get a picture.  I was probably holding my bloody camera like I do my phone when taking a pick.  Out from my body, and all loosy goosy.  The lesson for me…lock down the stance.  Get the arms in tight, create a stable base.  Be the tripod.  Envision zen calmness and stillness, then squeeeeeeeze the trigger…er…button.&lt;/p&gt;
+&lt;h3&gt;Lesson #3 Buy a Tripod&lt;/h3&gt;
+&lt;p&gt;Ultimately my goal for photography is to do more landscape type stuff.  And with out a doubt there is going to be low light situations.  Well worth the money to invest in a tripod.  Better to have it and not need it, than the other way around.&lt;/p&gt;
+&lt;h3&gt;Lesson #4 Know When to Use Auto Focus, and When Not Too.&lt;/h3&gt;
+&lt;p&gt;I partially switched to manual focusing because autofocus was driving me nuts.  I think my camera has a nine point system or something like that.  What you’re focusing on needs to be on one of those nine squares, and it’ll focus on that.  I was fighting with it.  For example, there was a bee in the middle of the flower.  I wanted to focus on the bee.  It kept focusing on the petals of the flower which drove me NUTZ!  Just focus on the damn bee!  So I switched to manual.  Later, I read there are different focus modes which would have solved my problem…the more you know!  Oh…for the absolute beginners, &lt;strong&gt;AF&lt;/strong&gt; on your lens means auto-focus, and &lt;strong&gt;MF&lt;/strong&gt; means manual focus.   Thought I’d throw that in there.  It seems pretty self explanatory, but just incase.  There are so many abbreviations on the camera.  If you’re not in the know, you better look it up.&lt;/p&gt;
+&lt;h3&gt;Keep it Crispy&lt;/h3&gt;
+&lt;p&gt;Hopefully by next post, I’ll be bragging about how friggen sharp my pics are.  Only time will tell.  Hopefully, you’ll be able to learn from my mistakes instead of making them yourself.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I Bought a Camera]]></title><description><![CDATA[Deciding between the Canon SL3, M50 and T8i]]></description><link>https://shawnandrews.photos/posts/i-bought-a-camera/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/i-bought-a-camera/</guid><pubDate>Sat, 08 Aug 2020 17:03:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 508px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/594db633789fdce4d4f3e4bda146e871/a2d2e/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.16666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAbcxsZrDQ//EABgQAAMBAQAAAAAAAAAAAAAAAAIDBAEA/9oACAEBAAEFAjsEDOgtKZrSU2Z2tOd2dCOij//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAIBBQEBAAAAAAAAAAAAAAABAhESISIxUaH/2gAIAQEABj8CcbXh0HtK0wrkn1k3GKo3XptH6Z9P/8QAGhABAQADAQEAAAAAAAAAAAAAAQARIUFRwf/aAAgBAQABPyHMI9hPofOy5ZATbNkJGl8FExDhzb//2gAMAwEAAgADAAAAEKgP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAMAAgMAAAAAAAAAAAAAAQARIUFRYXGx/9oACAEBAAE/EEg1EhaRr7cFwvGGktV4ZUKd3zHwONFj7jLlhSs+y7PELHKOp//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/594db633789fdce4d4f3e4bda146e871/8ac56/1.webp 240w,
+/static/594db633789fdce4d4f3e4bda146e871/d3be9/1.webp 480w,
+/static/594db633789fdce4d4f3e4bda146e871/7b066/1.webp 508w&quot;
+          sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/594db633789fdce4d4f3e4bda146e871/09b79/1.jpg 240w,
+/static/594db633789fdce4d4f3e4bda146e871/7cc5e/1.jpg 480w,
+/static/594db633789fdce4d4f3e4bda146e871/a2d2e/1.jpg 508w&quot;
+          sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/594db633789fdce4d4f3e4bda146e871/a2d2e/1.jpg&quot;
+          alt=&quot;&amp;#39;Canon EOS SL3&amp;#39;&quot;
+          title=&quot;Photo from [Canon Website](https://www.canon.ca/en/product?name=EOS_Rebel_SL3&amp;amp;category=/en/products/Cameras/DSLR-Cameras/Entry-level)&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;Photo from &lt;a href=&quot;https://www.canon.ca/en/product?name=EOS_Rebel_SL3&amp;#x26;category=/en/products/Cameras/DSLR-Cameras/Entry-level&quot;&gt;Canon Website&lt;/a&gt;&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;I finally decided.  This week I purchased the Canon EOS SL3 or 250D depending on where you live.  I had narrowed the choice down to the SL3, M50 and the T8i.  Which are all pretty much the same camera from what I gathered.  At least for the features I cared about.  Most of the articles and videos pointed me in the direction of these 3 cameras.  You can see a comparison chart &lt;a href=&quot;https://www.bhphotovideo.com/c/compare/Canon_M50_vs_Canon_Rebel_T8i_vs_Canon_Rebel_SL3/BHitems/1393460-REG_1546030-REG_1473086-REG&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Features I Considered&lt;/h2&gt;
+&lt;h3&gt;Pixels&lt;/h3&gt;
+&lt;p&gt;Should come to no surprise that megapixels came into play.  All 3 cameras that I looked at are exactly the same (24.1 megapixels).  During the investigation I found out a couple of interesting things. Mostly that camera companies lie to customers quite a bit.  Or rather they give specs in the best possible environment for the feature to succeed.  For example, with megapixels, they are dispersed between red, green, and blue on the censor. If you were to take a picture of something that is exactly neutral grey you’ll get the advertised megapixels. But if you shoot something that is completely red.  You are only getting a fraction of the full megapixels.  Specifically, the megapixels set aside for the color red.  So in real world situations you’ll never get the advertised pixels.&lt;/p&gt;
+&lt;h3&gt;Full frame vs. Cropped&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bab57cef404320ac7059164a371a4534/6a068/fullframe.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB10pIKZisqv/EAB0QAAECBwAAAAAAAAAAAAAAAAACEwEDBBASIUH/2gAIAQEAAQUCfS0ufiRqzmrf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/AcSP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPwHUW//EABsQAAEEAwAAAAAAAAAAAAAAAAEAAhARITEy/9oACAEBAAY/Ag7AQp1rmNR//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARMSHw/9oACAEBAAE/IRtaQ1QsXmS1yw4h72PhhP/aAAwDAQACAAMAAAAQ3A//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8QprH/xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQIBAT8QSrlO/8QAHBABAQADAAMBAAAAAAAAAAAAAREAITFBUXGR/9oACAEBAAE/EPJlmBTaT8MI03Yhj04SyTVHIERwV1gi9fWDsZvP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/bab57cef404320ac7059164a371a4534/8ac56/fullframe.webp 240w,
+/static/bab57cef404320ac7059164a371a4534/d3be9/fullframe.webp 480w,
+/static/bab57cef404320ac7059164a371a4534/e46b2/fullframe.webp 960w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/bab57cef404320ac7059164a371a4534/09b79/fullframe.jpg 240w,
+/static/bab57cef404320ac7059164a371a4534/7cc5e/fullframe.jpg 480w,
+/static/bab57cef404320ac7059164a371a4534/6a068/fullframe.jpg 960w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/bab57cef404320ac7059164a371a4534/6a068/fullframe.jpg&quot;
+          alt=&quot;&amp;#39;Full frame vs cropped&amp;#39;&quot;
+          title=&quot;Photo from [the photography blogger](http://www.the-photography-blogger.com/full-frame-vs-crop-sensor-camera-all-you-need-to-know/)&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;Photo from &lt;a href=&quot;http://www.the-photography-blogger.com/full-frame-vs-crop-sensor-camera-all-you-need-to-know/&quot;&gt;the photography blogger&lt;/a&gt;&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;This is just the size of the sensor.  The one thing that I noticed is pricing between full and cropped is significant. This was what helped me filter down my choices to these 3. Generally a full frame works better in low light situations, and for wider angle shots.  Cropped frames just changes the focal length of a given lens.  For example, all 3 cameras I looked at uses an APS-C sensor, which has a crop factor of 1.6.  Which means a lens that is 50mm on a full-frame would look like 80mm on the cropped. Everything would look zoomed in when comparing the 2.  There are adapters that fix this if you really care, but in my books it’s not a huge deal.  I’d just take a couple steps backward.&lt;/p&gt;
+&lt;h3&gt;Mirrorless vs. DSLR&lt;/h3&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/22c335760501e3329c236860cf6ab523/b4294/mirrorless.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.08333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAID/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2rUUof/EABoQAAMAAwEAAAAAAAAAAAAAAAABAgMRI0H/2gAIAQEAAQUCyXom+cNuWeI//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAECESD/2gAIAQEABj8CochPH//EABoQAQEAAwEBAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8hVo8l+zNkYbnouG5v/9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAcEAEBAQEAAgMAAAAAAAAAAAABESEAMUFRkcH/2gAIAQEAAT8QPEcNj9PV2NQHYfvKnDSfHMBcXTrCQEaTzzvrjDO//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/22c335760501e3329c236860cf6ab523/8ac56/mirrorless.webp 240w,
+/static/22c335760501e3329c236860cf6ab523/d3be9/mirrorless.webp 480w,
+/static/22c335760501e3329c236860cf6ab523/e88ff/mirrorless.webp 600w&quot;
+          sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/22c335760501e3329c236860cf6ab523/09b79/mirrorless.jpg 240w,
+/static/22c335760501e3329c236860cf6ab523/7cc5e/mirrorless.jpg 480w,
+/static/22c335760501e3329c236860cf6ab523/b4294/mirrorless.jpg 600w&quot;
+          sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/22c335760501e3329c236860cf6ab523/b4294/mirrorless.jpg&quot;
+          alt=&quot;&amp;#39;Mirrorless cameras&amp;#39;&quot;
+          title=&quot;Photo from [thecaeramthing](http://thecamerathing.blogspot.com/2017/11/mirrorless-vs-dslr-cameras-whats.html)&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;Photo from &lt;a href=&quot;http://thecamerathing.blogspot.com/2017/11/mirrorless-vs-dslr-cameras-whats.html&quot;&gt;thecaeramthing&lt;/a&gt;&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;This one was new to me.  I never heard of mirrorless before.  But the name pretty well explains the difference.  One has a mirror, the other doesn’t. With DSLRs, when you look through the viewfinder, it reflects off mirrors and goes through the lens.
+With mirrorless, they replaced the mirrors with a screen which sees whatever the sensor sees. What is the benefit?  Smaller cameras. The downside is it eats up your battery life.  I’m cool with a bigger camera.  When I got my camera I was surprised
+at how small it was.  I almost think mirrorless would be too small for me.  (I’m a pretty tall guy)  The M50 is mirrorless. The other 2 are not. Between the M50 and the SL3, the specs are pretty well exactly the same except for this feature.  And I didn’t need to spend extra money to get it.&lt;/p&gt;
+&lt;h3&gt;Battery life&lt;/h3&gt;
+&lt;p&gt;From the reviews that I read, the SL3 had the best battery life between the 3.  The M50 being mirrorless is prone to having a poor battery life. The T8i seemed to be pretty good as well, but the SL3 was still better.  I suspect because it has a newer sensor so it’s a little more efficient.&lt;/p&gt;
+&lt;h3&gt;Wifi / Bluetooth&lt;/h3&gt;
+&lt;p&gt;I thought this was just cool.  Being able to take photos with your phone / computer.  More importantly, you can transfer your photos directly to your devices! No more having to deal with card readers.  That being said, I suspect card readers are substantially quicker than doing it over the network. So transferring huge amount of data could possibly be painful.  Plus you need to keep your camera on that entire time which is a waste of the batteries. Still cool.&lt;/p&gt;
+&lt;h2&gt;So Far So Good&lt;/h2&gt;
+&lt;p&gt;At this point, I’ve only had the camera for a couple days.  But it seems pretty good.  The one thing that surprised me was the menu system. It is very similar to point and click cameras.  Which was a little disheartening at first.  Then I realized, you can turn most of that off. Some of it was useful for me, I didn’t know what some of the abbreviations meant on the of camera.  Overall I’m still very happy with my purchase. I’m looking forward to learning more about how to use it.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Which Camera to Buy?]]></title><description><![CDATA[Figuring out which camera is a good starting point for beginners.]]></description><link>https://shawnandrews.photos/posts/which-camera-to-buy/</link><guid isPermaLink="false">https://shawnandrews.photos/posts/which-camera-to-buy/</guid><pubDate>Mon, 03 Aug 2020 17:03:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d490a58bc9b198be11c820829b71fcec/c08c5/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFJzPkjaMBX/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAIBAxITIf/aAAgBAQABBQJLPO0OZghctkppVl//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEgH/2gAIAQMBAT8BpWv/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQIBAT8BjL//xAAdEAABBAIDAAAAAAAAAAAAAAAAAREhMQISMkFh/9oACAEBAAY/AmuYNdo9OWIsliu99Kf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhUTGB/9oACAEBAAE/IVqC3h2A8BOU24MaTy5UBYy798iQ808J/9oADAMBAAIAAwAAABAUP//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPxBA2Ff/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EDvZF//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExUUFhkcH/2gAIAQEAAT8QTOT0R9Iej7hbz4Mo4h4yk3o6Iz8zl0BTVmDFrdVC2d4ZGoCCQeI95//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/d490a58bc9b198be11c820829b71fcec/8ac56/1.webp 240w,
+/static/d490a58bc9b198be11c820829b71fcec/d3be9/1.webp 480w,
+/static/d490a58bc9b198be11c820829b71fcec/0ba47/1.webp 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/d490a58bc9b198be11c820829b71fcec/09b79/1.jpg 240w,
+/static/d490a58bc9b198be11c820829b71fcec/7cc5e/1.jpg 480w,
+/static/d490a58bc9b198be11c820829b71fcec/c08c5/1.jpg 640w&quot;
+          sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/d490a58bc9b198be11c820829b71fcec/c08c5/1.jpg&quot;
+          alt=&quot;&amp;#39;Cameras&amp;#39;&quot;
+          title=&quot;Photo by: [Rosalind Chang](https://unsplash.com/@rosalindjchang)&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;&lt;p&gt;Photo by: &lt;a href=&quot;https://unsplash.com/@rosalindjchang&quot;&gt;Rosalind Chang&lt;/a&gt;&lt;/p&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;The journey begins.  I need a camera.  At first glance there are toooo many options. So many different brands. Pricing ranging from a couple hundred to several thousands of dollars. What is so different that there is such a price gap?  And when shopping there are so many acronyms that I don’t understand.  What is important?  What should I care about as a beginner? So many questions.  A little daunting.  I’m finding the process very similar to building your own computer.  No choice but to jump right in.&lt;/p&gt;
+&lt;h2&gt;Camera Brands&lt;/h2&gt;
+&lt;p&gt;One thing that I noticed after doing a little research online.  Photographers all have their own preference of cameras.  Some swear by Nikon others by Canon, Sony, etc.  I think once you get into the nitty gritty, each company probably excels at some things more than others.  &lt;/p&gt;
+&lt;p&gt;I’m looking at it like car companies.  Some are better at interiors and comfort, some are better at reliability and safety.  Everyone has their preference based on experience.  Really any company could have the best model of the year, and the next year not have the top model.  So that’s the approach I’m looking at this.&lt;/p&gt;
+&lt;p&gt;Personally I’ve developed a preference in my retouching days.  This was back when digital cameras were just approaching the quality of film.  Things are probably drastically different now a days.  That being said, the photographer that I worked for decided to take the plunge into digital.  He had used a Nikon.  Looking at the photos it took, I really didn’t enjoy the colors.  Skin tones looked pasty to me.  Later he bought a Canon and I thought the colors looked a lot better. It could just be the maturity of the sensors.  As I said, this was definitely during a transition period for digital.  So from that perspective, I’m probably going to go with Canon just to narrow my field of vision on which to purchase.  Could be a big mistake…but I’m pretty sure all entry level cameras aren’t going to be that different.  It’s more when you get into the professional grade where it matters. (Famous last words)&lt;/p&gt;
+&lt;h2&gt;Price Range&lt;/h2&gt;
+&lt;p&gt;This is really going to depend on how much cash you have lying around.  For me I’m looking for something around the $1000 mark (Canadian dollars).  It’s easy to get tied up in all the features and their coolness factor.  I think choosing a price point before you even delve in will prevent you from jumping down the cool toys rabbit hole…which I enjoy too much.&lt;/p&gt;
+&lt;h2&gt;What am I Going to Use it For?&lt;/h2&gt;
+&lt;p&gt;To really decide which features in a camera are important to me.  It’s really important to know what I’m going to use it for.  I’m pretty sure landscape photography is completely different from someone shooting sporting events.  I’ll be using it for landscape photography…mostly.  Trying to take pictures of my 4 year old I guess could be considered a sporting event as well ;) I haven’t really looked into what features camera offer yet.  But my guess is durability, and weather resistance.  Possibly weight if I’m doing a lot of hiking to get to the shooting spot.  Stuff like that.&lt;/p&gt;
+&lt;h2&gt;Narrowed it down&lt;/h2&gt;
+&lt;p&gt;Now onto research.  I’ve filtered my search down to a $1000 Canon that is good for landscape photography.  Hopefully this won’t be too painful.  Fingers crossed.&lt;/p&gt;</content:encoded></item></channel></rss>
