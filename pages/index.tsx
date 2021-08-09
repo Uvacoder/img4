@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const loader = ({ src, width }: ImageLoaderProps) => {
-    return `https://images.ctfassets.net/hn94000t32hs/his9LFFcJgih1Q55bJGoq/844b37b6b477b7a40778ec05fc9fa59c${src}?w=${width}&fm=webp&q=80`
+    return `${src}?w=${width}&fm=webp&q=80`
   }
 
   return (
@@ -23,7 +23,7 @@ export default function Home() {
             className={styles.imageDesktop}
             alt=""
             loader={loader}
-            src="/img-3450.jpg"
+            src="https://images.ctfassets.net/hn94000t32hs/his9LFFcJgih1Q55bJGoq/844b37b6b477b7a40778ec05fc9fa59c/img-3450.jpg"
             layout="fill"
             objectFit="cover"
           />
@@ -31,7 +31,7 @@ export default function Home() {
             className={styles.imageMobile}
             alt=""
             loader={loader}
-            src="/img-3446.jpg"
+            src="https://images.ctfassets.net/hn94000t32hs/2l0rUiOZKSUxYMQ0Dfj09Q/5b6c842ca0668493d02205e4c581bb2a/img-3446.jpg"
             layout="fill"
             objectFit="cover"
           />
