@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node ./scripts/buildPhotoList.js && next build && next export",
+    "postbuild": "cd out && touch .nojekyll",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier ./**/*.tsx"
