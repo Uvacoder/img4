@@ -1,10 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image, { ImageLoaderProps } from 'next/image'
 import Link from 'next/link'
 import Nav from '../components/nav'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const loader = ({ src, width }: ImageLoaderProps) => {
+    return `https://images.ctfassets.net/hn94000t32hs/his9LFFcJgih1Q55bJGoq/844b37b6b477b7a40778ec05fc9fa59c${src}?w=${width}&fm=webp&q=80`
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -18,18 +22,18 @@ export default function Home() {
           <Image
             className={styles.imageDesktop}
             alt=""
-            src="/bkg-home.jpg"
+            loader={loader}
+            src="/img-3450.jpg"
             layout="fill"
             objectFit="cover"
-            quality={100}
           />
           <Image
             className={styles.imageMobile}
             alt=""
-            src="/bkg-home-mobile.jpg"
+            loader={loader}
+            src="/img-3446.jpg"
             layout="fill"
             objectFit="cover"
-            quality={100}
           />
         </div>
         <Nav showHome={false} />
