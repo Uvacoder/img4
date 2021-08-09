@@ -1,0 +1,55 @@
+.container {
+  min-height: 100vh;
+  background: #000 url('/background.gif') repeat;
+}
+
+.bgWrap {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.titleContainer {
+  height: 100vh;
+  display: flex;
+  
+  margin-left: 2.4rem;
+  margin-top: 4rem;
+}
+
+.title h1,
+.title h3{
+  margin: 0 0 0rem;
+}
+
+.title h3 {
+  font-weight: 200;
+}
+
+
+.imageDesktop {
+  display:none !important;
+}
+
+.imageMobile {
+  display: block !important;
+}
+
+@media (min-width: 720px) {
+
+  .titleContainer {
+    align-items: center;
+    margin-left: 8.4rem;
+    margin-top:-100px;
+  }
+  .imageDesktop {
+    display:block !important;
+  }
+  
+  .imageMobile {
+    display: none !important;
+  }
+}
+

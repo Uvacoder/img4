@@ -1,0 +1,77 @@
+.gallery {
+	figcaption {
+		padding-top: 2.5rem;
+		padding-bottom: 1.5rem;
+	}
+}
+
+
+@media(min-width: 720px) {
+.link {
+    margin: 2px;
+    overflow: hidden;
+    
+    &:hover {
+        .image {
+            filter: grayscale(0);
+        }
+        
+        figcaption {
+            opacity: 1;
+        }
+    }
+}
+
+.image {
+    display: block;
+    width: 100%;
+    transition: .3s;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.gallery {
+    display: flex;
+	padding: 2px;
+	transition: .3s;
+	background: #fff;
+
+    figure {
+        margin: 2px;
+    }
+	
+	&:hover img {
+		filter: grayscale(1);
+	}
+	
+	.column {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+	}
+	
+	
+	
+	figure {
+		position: relative;
+	}
+	
+	
+	
+	figcaption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 25px 15px 15px;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: white;
+		opacity: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+		transition: .3s;
+	}
+}
+}
