@@ -20,7 +20,7 @@ function Photos() {
     setViewerIsOpen(false)
   }
 
-  const photos = galleries[0].images
+  const photos = galleries[1].images
 
   return (
     <div className={styles.container}>
