@@ -20,7 +20,7 @@ function Photos() {
     setViewerIsOpen(false)
   }
 
-  const photos = galleries[1].images
+  const photos = galleries.filter(({ name }) => name === 'Insects')[0].images
 
   return (
     <div className={styles.container}>
