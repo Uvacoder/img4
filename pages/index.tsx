@@ -42,7 +42,7 @@ export default function Home() {
             <h1>Shawn Andrews</h1>
             <h3>Photography Portfolio</h3>
             <p>
-              <Link href="/photos">Visit Gallery</Link>
+              <Link href="/photos/insects">Visit Gallery</Link>
             </p>
           </div>
         </div>

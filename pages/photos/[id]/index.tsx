@@ -1,12 +1,17 @@
 import Head from 'next/head'
 import { useCallback, useState } from 'react'
+import { useRouter } from 'next/router'
 import Gallery from 'react-photo-gallery'
-import galleries from '../components/galleries.json'
-import Nav from '../components/nav'
-import Modal from '../components/modal'
-import styles from '../styles/Photos.module.css'
+import galleries from '../../../components/galleries.json'
+import Modal from '../../../components/modal'
+import Nav from '../../../components/nav'
+import SubNav from '../../../components/subnav'
+import styles from '../../../styles/Photos.module.css'
 
 function Photos() {
+  const router = useRouter()
+  const { id } = router.query
+
   const [currentImage, setCurrentImage] = useState(0)
   const [viewerIsOpen, setViewerIsOpen] = useState(false)
 
@@ -20,7 +25,8 @@ function Photos() {
     setViewerIsOpen(false)
   }
 
-  const photos = galleries.filter(({ name }) => name === 'Insects')[0].images
+  const photos = galleries.filter(({ slug }) => slug === (id || 'insects'))[0]
+    .images
 
   return (
     <div className={styles.container}>
@@ -32,6 +38,7 @@ function Photos() {
 
       <main className={styles.main}>
         <Nav showHome />
+        {id && <SubNav id={id} />}
         <Gallery photos={photos} onClick={openLightbox} />
         {viewerIsOpen && (
           <Modal onClick={closeLightbox} currentImage={photos[currentImage]} />

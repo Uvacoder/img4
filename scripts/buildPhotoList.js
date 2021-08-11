@@ -13,12 +13,16 @@ client
     content_type: 'photo',
   })
   .then((galleries) => {
-    const output = galleries.items.map(({ fields: { name, images } }) => {
-      return {
-        name,
-        images: images.map(buildImage),
+    const output = galleries.items.map(
+      ({ fields: { name, images, slug, order } }) => {
+        return {
+          name,
+          images: images.map(buildImage),
+          slug,
+          order,
+        }
       }
-    })
+    )
 
     fs.writeFileSync(
       'components/galleries.json',
