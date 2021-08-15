@@ -5,14 +5,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <script
-            type="text/javascript"
-            dangerouslySetInnerHTML={{
-              __html: `(function(){
-                    
-                })();`,
-            }}
-          ></script> */}
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link rel="icon" type="image/png" href="/favicon.png" />
         </Head>
         <body>
           <Main />

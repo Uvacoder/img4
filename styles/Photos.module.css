@@ -1,8 +1,19 @@
 .container {
   min-height: 100vh;
-  background: #000 url('/background.gif') repeat;
+  background: #000;
 }
 
+.container img {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: all .3s;
+}
+
+.container img:hover {
+  filter: grayscale(0%);
+  transition: all .3s;
+  opacity: 1;
+}
 .bgWrap {
   position: fixed;
   height: 100vh;

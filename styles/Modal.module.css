@@ -25,6 +25,12 @@
   height: 90%;
 }
 
+.modalImage img {
+  filter: grayscale(0%);
+  transition: all .3s;
+  opacity: 1 !important;
+}
+
 .close {
   position: absolute;
   right: 10px;
