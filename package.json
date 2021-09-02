@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node ./scripts/buildPhotoList.js && next build && next export",
-    "postbuild": "cp CNAME ./out/CNAME && cp 404.html ./out/404.html && cd out && touch .nojekyll",
+    "postbuild": "cp 404.html ./out/404.html && cd out && touch .nojekyll",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier ./**/*.tsx"
