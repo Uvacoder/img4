@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Shawn Andrews Photography Portfolio</title>
+        <title>Bill Lumberg's Photography Portfolio</title>
         <meta name="description" content="Photography Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,10 +39,10 @@ export default function Home() {
         <Nav showHome={false} />
         <div className={styles.titleContainer}>
           <div className={styles.title}>
-            <h1>Shawn Andrews</h1>
+            <h1>Bill Lumberg's</h1>
             <h3>Photography Portfolio</h3>
             <p>
-              <Link href="/photos/insects">Visit Gallery</Link>
+              <Link href="/photos/insects">Enter Gallery</Link>
             </p>
           </div>
         </div>
