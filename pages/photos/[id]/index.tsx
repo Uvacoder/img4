@@ -31,7 +31,7 @@ function Photos() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Shawn Andrews Photography Portfolio - Gallery</title>
+        <title>Bill Lumberg Photography Portfolio - Gallery</title>
         <meta name="description" content="Photography Portfolio Gallery" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
