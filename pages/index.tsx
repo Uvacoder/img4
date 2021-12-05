@@ -31,7 +31,7 @@ export default function Home() {
             className={styles.imageMobile}
             alt=""
             loader={loader}
-            src="https://images.ctfassets.net/hn94000t32hs/2l0rUiOZKSUxYMQ0Dfj09Q/5b6c842ca0668493d02205e4c581bb2a/img-3446.jpg"
+            src="https://res.cloudinary.com/iarenotamnot/image/upload/v1638691982/alombi.xyz.png"
             layout="fill"
             objectFit="cover"
           />
