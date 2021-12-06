@@ -1,5 +1,5 @@
 shawnandrews.photos
------
+
 node ./scripts/buildPhotoList.js && (remove from build command in package.json)
 ------
 
